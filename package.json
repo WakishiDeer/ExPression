@@ -1,0 +1,20 @@
+{
+  "name": "emotion_visualization_experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wacky2319/emotion_visualization_experiment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wacky2319/emotion_visualization_experiment/issues"
+  },
+  "homepage": "https://github.com/Wacky2319/emotion_visualization_experiment#readme"
+}

@@ -1,0 +1,143 @@
+<mxfile host="65bd71144e" modified="2020-12-20T08:34:33.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.0 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="clx1j1alZcmY_acZqnD1" version="13.10.0" type="embed">
+    <diagram id="vq9nVndEosOltHk3gN2L" name="Page-1">
+        <mxGraphModel dx="2230" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="53" value="" style="group;fontSize=17;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230" width="570.71" height="1131.9999999999998" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="group;fontSize=17;" parent="53" vertex="1" connectable="0">
+                    <mxGeometry y="47.99999999999999" width="570.71" height="1083.9999999999998" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;thetaMain&lt;/span&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;== 0&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="142.85714285714286" y="451.99999999999994" width="214.28571428571428" height="81.81599999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" parent="39" source="40" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250.00000000000003" y="388.7999999999999" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uGoXlH5qMiSjv6gBF642-53" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2352" relative="1" as="geometry">
+                        <mxPoint x="130" y="-70.22" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" parent="39" source="10" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250.00000000000003" y="311.99999999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;変数の初期化&lt;br style=&quot;font-size: 17px&quot;&gt;thetaMain = 0,&lt;br style=&quot;font-size: 17px&quot;&gt;step = 360 / vertexNum&lt;sup&gt;※&lt;/sup&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="114.28571428571429" y="167.99999999999997" width="271.4285714285714" height="95.99999999999997" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry y="544" width="160" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="39" source="8" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="71.42857142857143" y="575.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4676" y="1" relative="1" as="geometry">
+                        <mxPoint x="14.17" y="-15.08" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;glass=0;sketch=0;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="320" y="544" width="210" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="39" source="8" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="514.2857142857143" y="479.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="428.57142857142856" y="611.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="23" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5275" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-12.5" y="-17.090000000000003" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px;&quot;&gt;曲線の頂点を設置&lt;br style=&quot;font-size: 17px;&quot;&gt;（内側と外側に2点ずつ）&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="140.70857142857142" y="652" width="218.57142857142858" height="59.99999999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" parent="39" source="17" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" parent="39" source="20" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;図形の終点を指定&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="168.57142857142856" y="782.9999999999999" width="164.28571428571425" height="59.99999999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=17;" parent="39" source="47" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="251.42857142857142" y="296.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-75" y="297"/>
+                        </Array>
+                        <mxPoint x="-75" y="429" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;thetaMain&lt;/span&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&amp;lt;= 360&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="142.86142857142855" y="321.99999999999994" width="214.28571428571428" height="81.81599999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="39" source="40" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="528.5714285714286" y="935.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="557" y="363"/>
+                            <mxPoint x="557" y="813"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uGoXlH5qMiSjv6gBF642-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="42" vertex="1" connectable="0">
+                    <mxGeometry x="-0.9535" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-150.35" y="58.09" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;図形の始点を指定&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=20;strokeWidth=2;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="167.86142857142855" y="62.00000000000001" width="164.28571428571425" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" parent="39" source="32" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="終了" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="179.28142857142853" y="881.9999999999998" width="142.85714285714286" height="71.99999999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" parent="39" source="31" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="開始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="178.56999999999996" y="-47.99999999999999" width="142.85714285714286" height="71.99999999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" parent="39" source="5" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGoXlH5qMiSjv6gBF642-55" value="&lt;span&gt;内側と外側の座標&lt;br&gt;追加（回転行列）&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;fontStyle=0" parent="39" vertex="1">
+                    <mxGeometry x="350" y="555" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGoXlH5qMiSjv6gBF642-56" value="&lt;span&gt;内側と外側の&lt;/span&gt;&lt;br&gt;&lt;span&gt;初期座標計算&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" parent="39" vertex="1">
+                    <mxGeometry x="20.000000000000007" y="555" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;span style=&quot;font-size: 21px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;&lt;font color=&quot;#363636&quot;&gt;&lt;sup&gt;&lt;font face=&quot;Helvetica&quot;&gt;※&lt;/font&gt;&lt;/sup&gt;&lt;font face=&quot;courier new&quot;&gt;予備実験において被験者が値を操作する&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;fontColor=#1A1A1A;" vertex="1" parent="39">
+                    <mxGeometry x="140.70999999999998" y="982" width="430" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34;&quot;&gt;thetaMain&lt;/span&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;+= step&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="65" y="500" width="177.14" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="27" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="837.8571428571428" y="959.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="838.5714285714286" y="467.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="481" y="760"/>
+                            <mxPoint x="481" y="800"/>
+                            <mxPoint x="156" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
